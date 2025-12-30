@@ -443,11 +443,11 @@ $P(B|A) = \frac{0.40 \cdot 0.20}{(0.20 \cdot 0.40) + (0.05 \cdot 0.60)}$
 | event                 | $B$  | $B^c$ | Total |
 |-----------------------|------|-------|-------|
 | prior probability     | 0.4  | 0.6   | 1     |
-| posterior probability | 0.72 | 0.18  | 1     |
+| posterior probability | 0.72 | 0.28  | 1     |
 
 </div>
 
-##
+
 
 <div align="center">
 
@@ -458,7 +458,7 @@ $P(B|A) = \frac{0.40 \cdot 0.20}{(0.20 \cdot 0.40) + (0.05 \cdot 0.60)}$
 |-----------------------|------|-------|-------|
 | prior probability     | 0.4  | 0.6   | 1     |
 | likelihood            | 0.20 | 0.05  | 0.25  |
-| posterior probability | 0.72 | 0.18  | 1     |
+| posterior probability | 0.72 | 0.28  | 1     |
 
 </div>
 
