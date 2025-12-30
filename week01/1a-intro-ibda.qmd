@@ -1,0 +1,228 @@
+---
+title: "Introduction to the Course and Bayesian Statistics"
+author: "Dr. Mine Dogucu"
+execute:
+  echo: true
+format: 
+  revealjs:
+    footer: "[stats115.com](https://stats115.com)"
+    slide-number: true
+    incremental: true
+    theme: ["../templates/slide-style.scss"]
+    logo: "https://www.stats115.com/img/logo.png"
+    title-slide-attributes: 
+      data-background-image: "https://stats115.com/img/logo.png"
+      data-background-size: 5%
+      data-background-position: 50% 85%
+    include-after-body: "../templates/clean_title_page.html"
+---
+
+```{r}
+#| echo: false
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
+```
+
+# Getting to Know Each Other
+
+## Merhaba
+
+Hello\
+`Private Sub Form_Load() MsgBox "Hello, World!" End Sub`\
+Hallo\
+مرحبا\
+`print('Hello world')`\
+नमस्ते & السلام عليكم\
+`print("Hello world")`\
+`<html> Hello world</html>`\
+¡Hola!\
+سلام
+
+## Meet and Greet Each Other
+
+In groups three or four meet and greet each other.
+
+Include
+
+Your name\
+Your year\
+I live ...\
+My favorite thing about UCI is ...\
+I am awesome because ...
+
+Find something in common between all of you (other than your major) by expanding the conversation.\
+Find a difference.
+
+# Getting to Know the Course
+
+## 
+
+::: font100
+The most important thing about this course
+:::
+
+[The course website](https://stats115.com)
+
+## Poll Everywhere
+
+:::{.font75}
+[PollEv.com/minedogucu800](https://pollev.com/minedogucu800)
+
+:::
+
+## What is Bayesian Statistics?
+
+Think 💭 - Pair 👫🏽 - Share 💬
+
+What have you so far heard about Bayesian Statistics?
+
+:::{.font75}
+[PollEv.com/minedogucu800](https://pollev.com/minedogucu800)
+
+:::
+
+## How to be successful in this course
+
+- Be punctual
+- Be organized
+- Do the work
+
+## How to make your professor happy
+
+- Be kind
+- Be honest
+
+# Syllabus
+
+Do you have any questions about the course structure or anything that is not clear from the syllabus?
+
+## What does a p-value represent?
+
+Think 💭 - Pair 👫🏽 - Share 💬
+
+## Why should you learn Bayesian Statistics?
+
+## An example
+
+"In 1985 only about 10% of JASA [Journal of the American Statistical Association] Applications and Case Studies articles used Bayesian methods.
+
+. . .
+
+In 2022 plus half of 2023, that percentage has changed.
+It is now 49%."
+
+
+
+Jeff Witmer, _To Bayes or Not to Bayes --
+Is There Any Question?_ Talk at Joint Statistical Meetings, 2023
+
+## Why should you learn Bayesian Statistics?
+
+- intuitive
+
+. . .
+
+- draws a more complete picture of statistics from both philosophical and application perspectives
+
+. . .
+
+- prepares you for your future career
+
+. . . 
+
+- statistics and computing are used in a harmonious way
+
+
+# Introduction to Bayesian Ideas
+
+The notes for this lecture are derived from  [Chapter 1 of the Bayes Rules! book](https://www.bayesrulesbook.com/chapter-1)
+
+##
+
+> How can we live if we don't change?  
+Beyoncé
+
+
+## Bayesian Knowledge Building
+
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("img/bayes_diagram.png")
+```
+
+## Frequentist Knowledge Building
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 4
+knitr::include_graphics("img/freq_diagram.png")
+```
+
+## Balancing Act of Bayesian Analysis
+
+```{r}
+#| echo: false
+#| fig-align: center
+knitr::include_graphics("img/bayes-balance-1.png")
+```
+
+## Interpretation of Probability
+
+**Bayesian**: a probability measures the relative plausibility of an event.
+
+**Frequentist**: a probability measures the long-run relative frequency of a repeatable event. In fact, “frequentists” are so named because of their interpretation of probability as a long-run relative frequency.
+
+
+## Prior Data
+
+Consider two claims. (1) Zuofu claims that he can predict the outcome of a coin flip. To test his claim, you flip a fair coin 10 times and he correctly predicts all 10! 
+
+(2) Kavya claims that she can distinguish natural and artificial sweeteners. To test her claim, you give her 10 sweetener samples and she correctly identifies each! In light of these experiments, what do you conclude?
+
+a. You’re more confident in Kavya’s claim than Zuofu’s claim.
+
+b. The evidence supporting Zuofu’s claim is just as strong as the evidence supporting Kavya’s claim.
+
+
+## Hypothesis Testing
+
+Suppose that during a recent doctor’s visit, you tested positive for a very rare disease. If you only get to ask the doctor one question, which would it be?
+
+a. What’s the chance that I actually have the disease?  
+b. If in fact I don’t have the disease, what’s the chance that I would’ve gotten this positive test result?
+
+. . .
+
+a. $P(disease | +)$  
+b. $P(+ | disease^c)$
+
+
+## Notes on Bayesian History
+
+- Named after Thomas Bayes (1701-1761).
+
+. . .
+
+- Frequentist statistics has been more popular historically and Bayesian statistics is starting to get popular, mainly because 
+
+. . .
+
+- Computing, computing, computing.
+
+. . .
+
+- It is harder to adopt to newer methods. Thus change is happening slowly. 
+
+. . .
+
+- We can embrace subjectivity. 
+
+
+## Optional
+
+Watch [How Data Nerds Found A 131-Year-Old Sunken Treasure](https://fivethirtyeight.com/features/how-data-nerds-found-a-131-year-old-sunken-treasure/)
+
+
