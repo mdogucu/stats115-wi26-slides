@@ -492,7 +492,6 @@ summarize_beta_binomial(15, 6, y = 1, n = 3)
 
 ##
 
-<center>
 
 | Time                | Data         | Model       |
 |---------------------|--------------|-------------|
@@ -501,10 +500,8 @@ summarize_beta_binomial(15, 6, y = 1, n = 3)
 | at the end of 1971  | Y = 0, n = 5 | Beta(15, 6) |
 | at the end of 1972  | Y = 1, n = 3 | Beta(16,8)  |
 
-<\center>
 
 
-<center>
 
 ## Data Order Invariance
 
@@ -515,14 +512,12 @@ summarize_beta_binomial(15, 6, y = 1, n = 3)
 | 1971                | Y = 0, n = 5 | Beta(15,8) |
 | 1970                | Y = 1, n = 1 | Beta(16,8) |
 
-<\center>
 
 
 
 
 ## What if we observed all the data at once?
 
-<center>
 
 
 | Time                | Data         | Model      |
@@ -533,7 +528,6 @@ summarize_beta_binomial(15, 6, y = 1, n = 3)
 |1972  | Y = 1, n = 3 |            |
 | Total               | Y = 2, n = 9 |            |
 
-<\center>
 
 ##
 
