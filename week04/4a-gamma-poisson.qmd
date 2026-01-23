@@ -377,3 +377,10 @@ plot_gamma_poisson(shape = 10, rate = 2, sum_y = 11, n = 4)
 ```{r}
 summarize_gamma_poisson(shape = 10, rate = 2, sum_y = 11, n = 4)
 ```
+
+## Exercises
+
+5.1a  
+5.2a  
+5.3a  
+5.4a  

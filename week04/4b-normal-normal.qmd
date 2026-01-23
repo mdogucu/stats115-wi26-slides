@@ -236,3 +236,9 @@ A conjugate prior model isn’t always flexible enough to fit your prior underst
 . . .
 
 Conjugate family models do not always allow you to have an entirely flat prior. While we can tune a flat Beta prior by setting  $\alpha = \beta = 1$, neither the Normal nor Gamma priors (or any proper models with infinite support) can be tuned to be totally flat. The best we can do is tune the priors to have very high variance, so that they’re almost flat.
+
+## Exercises
+
+5.8  
+5.11  
+5.13
